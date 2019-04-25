@@ -1,4 +1,4 @@
-def pil_grid(images, columns=5):
+def image_grid(images, columns=5):
     """Takes an array of images and a column count, and generates a grid using the images"""
     
     # Import libraries
