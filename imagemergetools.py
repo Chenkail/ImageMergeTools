@@ -1,5 +1,8 @@
 # -------- Import libraries -------- #
+# Built-in
 import copy
+
+# 3rd party
 import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import numpy as np
