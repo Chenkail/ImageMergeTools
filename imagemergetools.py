@@ -20,6 +20,10 @@ def image_grid(images, columns=5):
     # set the number of columns to the number of images
     column_count = min(image_count, columns)
 
+    # Avoid divide by 0 error
+    if column_count < 1:
+        return None
+
     # Set row count
     rows = image_count // column_count
     if image_count % column_count != 0:
